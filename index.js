@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 
 app.get('/fun', function (req, res) {
     let func = `function(){\n
-        return "Hello World"\n
+        return "Hello Worlds"\n
     }\n`;
 
     func = func + "\n Hello World!"
